@@ -1,12 +1,112 @@
 
-.Title {
-    width: 100vw;
+html, body {
+    background-color: #0a192e;
+    max-width: 100%;
+    overflow-x: hidden;
+    color: white;
     margin: 0;
-    height: 50px;
 }
 
-h1 {
+.ProjectTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProjectTitle h1 {
+    font-weight: bold;
+}
+
+.Line {
+    height: 0;
+    width: 400px;
+    border-top: solid 1px #004764;
+    margin-left: 30px;
+}
+
+.project {
     display: flex;
     justify-content: center;
     text-align: center;
+    height: 500px;
+    margin: 50px;
+}
+
+.project img {
+    object-fit: contain;
+}
+
+.Title {
+    width: 100vw;
+    margin: 0;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    position: fixed;
+}
+
+.Title h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.projectDiv {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    text-align: end;
+    justify-content: space-evenly;
+}
+
+.projectBox {
+    position: relative;
+    width: 450px;
+    left: -10px;
+    background-color: #192841;
+}
+
+.projectBox p {
+    font-size: 17px;
+    margin: 25px;
+}
+
+
+.UsedTechnologies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.projectLinks a img {
+    height: 40px;
+    width: 40px;
+}
+
+.Sidebar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    bottom: 15px;
+    left: 15px;
+}
+
+.Sidebar img {
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+#contact p, #work p, #AboutMe p {
+    text-align: center;
+    margin: 25px 0 50px 0;
+}
+
+#AboutMe {
+    margin-top: 70px;
 }
