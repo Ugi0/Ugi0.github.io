@@ -35,6 +35,7 @@ html, body {
 
 .project img {
     object-fit: contain;
+    max-width: 600px;
 }
 
 .Title {
